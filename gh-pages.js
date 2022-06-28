@@ -1,5 +1,5 @@
-const ghpages = require('gh-pages')
-ghpages.publish(
+import { publish } from 'gh-pages';
+publish(
     'public',
     {
         branch: 'gh-pages',
